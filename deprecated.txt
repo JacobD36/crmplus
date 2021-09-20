@@ -1,0 +1,2 @@
+npm WARN deprecated ckeditor@4.12.1: We have renamed the @ckeditor package. New versions are available under the @ckeditor4 name.
+npm WARN deprecated jvectormap@1.2.2: jvectormap is not maintened since Aug 2015. You can use jvectormap-next or jqvmap instead.

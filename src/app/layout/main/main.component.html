@@ -1,0 +1,21 @@
+<div class="wrapper">
+    <app-navbar></app-navbar>
+    <!-- Left side column. contains the logo and sidebar -->
+    <app-sidebar></app-sidebar>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <router-outlet></router-outlet>
+    </div>
+    <!-- /.content-wrapper -->
+    <app-footer></app-footer>
+    <!-- Control Sidebar -->
+    <app-options></app-options>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+    immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
